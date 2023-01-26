@@ -1,0 +1,176 @@
+.wraper {
+    /*LOGO UNIMAL DAN JUDUL (di index.php)*/
+    margin: 0 auto;
+    border: 1px solid #1e62d0;
+    width: 1270px;
+    height: auto;
+    padding: 10px;
+    font-family: arial;
+}
+
+.title {
+    /*LOGO UNIMAL DAN JUDUL (di index.php)*/
+    border-left: 9px solid #1e62d0;
+    width: 1270px;
+    height: auto;
+    padding: 10px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.sidebar-left {
+    /*INPUT DATA (di index.php)*/
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 270px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    background-color: #f9f9f9;
+}
+
+.sidebar-right {
+    /*DATA MAHASISWA (di index.php)*/
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 920px;
+    height: auto;
+    padding: 10px;
+    float: left;
+    background-color: #f9f9f9;
+    margin-left: 10px;
+}
+
+#title-id {
+    /*Jarak antara judul dan navbar,*/
+    margin-top: 1%;
+    margin-bottom: 10px;
+    /*Jarak antara judul dan input data yang dibawah,*/
+}
+
+.form {
+    /*INPUT DATA (di index.php)*/
+    padding: 20px;
+}
+
+.input {
+    /*Bagian dalam INPUT DATA (di index.php)*/
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    /*Tombol simpan data(di index.php)*/
+    width: 100%;
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    background: linear-gradient(to bottom, #1e62d0 5%, #1e62d0 100%);
+    background-color: #3d94f6;
+    border-radius: 6px;
+    border: 1px solid #337fed;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 24px;
+    text-shadow: 0px 1px 0px #1570cd;
+}
+
+.table1 {
+    /*DATA MAHASISWA*/
+    margin-top: 12px;
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f2f5f7;
+}
+
+.table1 tr th {
+    /*tabel diatas isi di DATA MAHASISWA*/
+    background: #1e62d0;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table1,
+th,
+td {
+    /*tabel isi DATA MAHASISWA*/
+    padding: 8px 20px;
+    text-align: left;
+}
+
+.table1 tr:nth-child(even) {
+    /*tabel isi DATA MAHASISWA*/
+    background-color: #f2f2f2;
+}
+
+.aksi {
+    /*tombol ubah dan hapus*/
+    padding: 4px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.birutua {
+    /*tombol ubah*/
+    background-color: #1e62d0;
+}
+
+.birumuda {
+    /*tombol hapus*/
+    background-color: #5ca3ff;
+}
+
+.card .btn {
+    /*Bagian input data (di index.php)*/
+    color: rgb(255, 255, 255);
+}
+
+.nav-link {
+    /*Tulisan di navbar */
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.container {
+    /*Tampilan Login */
+    background-color: #2b68ca;
+    border-radius: 40px;
+    border: 3px solid #337fed;
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    font-family: Arial;
+    font-weight: bold;
+    width: 400%;
+    padding: 5px 330px;
+    text-shadow: 0px 3px 0px #003f7f;
+    color: #f2f5f7;
+    margin-top: 34px;
+}
+
+.login {
+    /*tombol diTampilan Login */
+    width: 100%;
+    box-shadow: inset 0px 1px 0px 0px #97c4fe;
+    background: linear-gradient(to bottom, #0062ff 5%, #4b90ff 100%);
+    background-color: #3d94f6;
+    border-radius: 30px;
+    border: 1px solid #337fed;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 9px 24px;
+    text-shadow: 0px 1px 0px #1570cd;
+}
